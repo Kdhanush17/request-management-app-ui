@@ -1,0 +1,54 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+.auth-section, .requests-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+input, textarea, select, button {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.request-card {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.request-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.logged-in-info {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
