@@ -78,18 +78,15 @@
 .logo h1 {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #2d3748;
+  color: white;
   margin: 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .hero-nav {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  margin-top: 10px; /* Add some margin to separate from logo on smaller screens */
 }
 
 .test-mode-btn {
@@ -102,6 +99,7 @@
   transition: all 0.3s ease;
   text-decoration: none;
   display: inline-block;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .test-mode-btn:hover {
@@ -116,16 +114,18 @@
   border-radius: 8px;
   transition: all 0.3s ease;
   font-size: 0.95rem;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .nav-link:not(.primary) {
-  color: #4a5568;
-  border: 1px solid #e2e8f0;
+  color: white;
+  border: 1px solid white;
 }
 
 .nav-link:not(.primary):hover {
   background-color: #f7fafc;
   border-color: #cbd5e0;
+  color: black; /* Changed text color to black on hover */
   transform: translateY(-1px);
 }
 
@@ -403,6 +403,7 @@
   
   .logo h1 {
     font-size: 1.5rem;
+    color: white;
   }
 
     .hero-buttons {

@@ -65,12 +65,14 @@
     width: 150px; /* Fixed width for testing side-by-side display */
     flex-shrink: 0; /* Prevent shrinking below content/width */
     box-sizing: border-box; /* Added box-sizing */
+    color: #2d3748; /* Default text color */
 }
 
 .filter-tab:hover {
     border-color: #667eea;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+    color: #667eea; /* Text color on hover */
 }
 
 .filter-tab.active {
